@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9052C8227EE073D002910CC /* terraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9052C8127EE073D002910CC /* terraApp.swift */; };
+		D9052C8427EE073D002910CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9052C8327EE073D002910CC /* ContentView.swift */; };
+		D9052C8627EE073E002910CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9052C8527EE073E002910CC /* Assets.xcassets */; };
+		D9052C8927EE073E002910CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9052C8827EE073E002910CC /* Preview Assets.xcassets */; };
+		D9052C9327EE073E002910CC /* terraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9052C9227EE073E002910CC /* terraTests.swift */; };
+		D9052C9D27EE073E002910CC /* terraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9052C9C27EE073E002910CC /* terraUITests.swift */; };
+		D9052C9F27EE073E002910CC /* terraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9052C9E27EE073E002910CC /* terraUITestsLaunchTests.swift */; };
+		D94F832E27EF058C009C4767 /* contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94F832D27EF058C009C4767 /* contacts.swift */; };
+		D94F833027EF0607009C4767 /* sata.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94F832F27EF0607009C4767 /* sata.swift */; };
+		D9D6813D27EF0DA4002EC86B /* emergency.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D6813C27EF0DA4002EC86B /* emergency.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9052C8F27EE073E002910CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9052C7627EE073D002910CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9052C7D27EE073D002910CC;
+			remoteInfo = terra;
+		};
+		D9052C9927EE073E002910CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9052C7627EE073D002910CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9052C7D27EE073D002910CC;
+			remoteInfo = terra;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D9052C7E27EE073D002910CC /* terra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = terra.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9052C8127EE073D002910CC /* terraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = terraApp.swift; sourceTree = "<group>"; };
+		D9052C8327EE073D002910CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D9052C8527EE073E002910CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9052C8827EE073E002910CC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D9052C8E27EE073E002910CC /* terraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = terraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9052C9227EE073E002910CC /* terraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = terraTests.swift; sourceTree = "<group>"; };
+		D9052C9827EE073E002910CC /* terraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = terraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9052C9C27EE073E002910CC /* terraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = terraUITests.swift; sourceTree = "<group>"; };
+		D9052C9E27EE073E002910CC /* terraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = terraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D94F832D27EF058C009C4767 /* contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contacts.swift; sourceTree = "<group>"; };
+		D94F832F27EF0607009C4767 /* sata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sata.swift; sourceTree = "<group>"; };
+		D9D6813C27EF0DA4002EC86B /* emergency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emergency.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9052C7B27EE073D002910CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9052C8B27EE073E002910CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9052C9527EE073E002910CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9052C7527EE073D002910CC = {
+			isa = PBXGroup;
+			children = (
+				D9052C8027EE073D002910CC /* terra */,
+				D9052C9127EE073E002910CC /* terraTests */,
+				D9052C9B27EE073E002910CC /* terraUITests */,
+				D9052C7F27EE073D002910CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9052C7F27EE073D002910CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9052C7E27EE073D002910CC /* terra.app */,
+				D9052C8E27EE073E002910CC /* terraTests.xctest */,
+				D9052C9827EE073E002910CC /* terraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9052C8027EE073D002910CC /* terra */ = {
+			isa = PBXGroup;
+			children = (
+				D9052C8127EE073D002910CC /* terraApp.swift */,
+				D9052C8327EE073D002910CC /* ContentView.swift */,
+				D9052C8527EE073E002910CC /* Assets.xcassets */,
+				D9052C8727EE073E002910CC /* Preview Content */,
+				D94F832D27EF058C009C4767 /* contacts.swift */,
+				D94F832F27EF0607009C4767 /* sata.swift */,
+				D9D6813C27EF0DA4002EC86B /* emergency.swift */,
+			);
+			path = terra;
+			sourceTree = "<group>";
+		};
+		D9052C8727EE073E002910CC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D9052C8827EE073E002910CC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D9052C9127EE073E002910CC /* terraTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9052C9227EE073E002910CC /* terraTests.swift */,
+			);
+			path = terraTests;
+			sourceTree = "<group>";
+		};
+		D9052C9B27EE073E002910CC /* terraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D9052C9C27EE073E002910CC /* terraUITests.swift */,
+				D9052C9E27EE073E002910CC /* terraUITestsLaunchTests.swift */,
+			);
+			path = terraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9052C7D27EE073D002910CC /* terra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9052CA227EE073E002910CC /* Build configuration list for PBXNativeTarget "terra" */;
+			buildPhases = (
+				D9052C7A27EE073D002910CC /* Sources */,
+				D9052C7B27EE073D002910CC /* Frameworks */,
+				D9052C7C27EE073D002910CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = terra;
+			productName = terra;
+			productReference = D9052C7E27EE073D002910CC /* terra.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9052C8D27EE073E002910CC /* terraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9052CA527EE073E002910CC /* Build configuration list for PBXNativeTarget "terraTests" */;
+			buildPhases = (
+				D9052C8A27EE073E002910CC /* Sources */,
+				D9052C8B27EE073E002910CC /* Frameworks */,
+				D9052C8C27EE073E002910CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9052C9027EE073E002910CC /* PBXTargetDependency */,
+			);
+			name = terraTests;
+			productName = terraTests;
+			productReference = D9052C8E27EE073E002910CC /* terraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D9052C9727EE073E002910CC /* terraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9052CA827EE073E002910CC /* Build configuration list for PBXNativeTarget "terraUITests" */;
+			buildPhases = (
+				D9052C9427EE073E002910CC /* Sources */,
+				D9052C9527EE073E002910CC /* Frameworks */,
+				D9052C9627EE073E002910CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9052C9A27EE073E002910CC /* PBXTargetDependency */,
+			);
+			name = terraUITests;
+			productName = terraUITests;
+			productReference = D9052C9827EE073E002910CC /* terraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9052C7627EE073D002910CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					D9052C7D27EE073D002910CC = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					D9052C8D27EE073E002910CC = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = D9052C7D27EE073D002910CC;
+					};
+					D9052C9727EE073E002910CC = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = D9052C7D27EE073D002910CC;
+					};
+				};
+			};
+			buildConfigurationList = D9052C7927EE073D002910CC /* Build configuration list for PBXProject "terra" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9052C7527EE073D002910CC;
+			productRefGroup = D9052C7F27EE073D002910CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9052C7D27EE073D002910CC /* terra */,
+				D9052C8D27EE073E002910CC /* terraTests */,
+				D9052C9727EE073E002910CC /* terraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9052C7C27EE073D002910CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9052C8927EE073E002910CC /* Preview Assets.xcassets in Resources */,
+				D9052C8627EE073E002910CC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9052C8C27EE073E002910CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9052C9627EE073E002910CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9052C7A27EE073D002910CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9052C8427EE073D002910CC /* ContentView.swift in Sources */,
+				D94F832E27EF058C009C4767 /* contacts.swift in Sources */,
+				D94F833027EF0607009C4767 /* sata.swift in Sources */,
+				D9D6813D27EF0DA4002EC86B /* emergency.swift in Sources */,
+				D9052C8227EE073D002910CC /* terraApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9052C8A27EE073E002910CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9052C9327EE073E002910CC /* terraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9052C9427EE073E002910CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9052C9D27EE073E002910CC /* terraUITests.swift in Sources */,
+				D9052C9F27EE073E002910CC /* terraUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9052C9027EE073E002910CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9052C7D27EE073D002910CC /* terra */;
+			targetProxy = D9052C8F27EE073E002910CC /* PBXContainerItemProxy */;
+		};
+		D9052C9A27EE073E002910CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9052C7D27EE073D002910CC /* terra */;
+			targetProxy = D9052C9927EE073E002910CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D9052CA027EE073E002910CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D9052CA127EE073E002910CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9052CA327EE073E002910CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"terra/Preview Content\"";
+				DEVELOPMENT_TEAM = KJ96LDH232;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vtron.terra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9052CA427EE073E002910CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"terra/Preview Content\"";
+				DEVELOPMENT_TEAM = KJ96LDH232;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vtron.terra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D9052CA627EE073E002910CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KJ96LDH232;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vtron.terraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/terra.app/terra";
+			};
+			name = Debug;
+		};
+		D9052CA727EE073E002910CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KJ96LDH232;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vtron.terraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/terra.app/terra";
+			};
+			name = Release;
+		};
+		D9052CA927EE073E002910CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KJ96LDH232;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vtron.terraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = terra;
+			};
+			name = Debug;
+		};
+		D9052CAA27EE073E002910CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KJ96LDH232;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vtron.terraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = terra;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9052C7927EE073D002910CC /* Build configuration list for PBXProject "terra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9052CA027EE073E002910CC /* Debug */,
+				D9052CA127EE073E002910CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9052CA227EE073E002910CC /* Build configuration list for PBXNativeTarget "terra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9052CA327EE073E002910CC /* Debug */,
+				D9052CA427EE073E002910CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9052CA527EE073E002910CC /* Build configuration list for PBXNativeTarget "terraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9052CA627EE073E002910CC /* Debug */,
+				D9052CA727EE073E002910CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9052CA827EE073E002910CC /* Build configuration list for PBXNativeTarget "terraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9052CA927EE073E002910CC /* Debug */,
+				D9052CAA27EE073E002910CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9052C7627EE073D002910CC /* Project object */;
+}
